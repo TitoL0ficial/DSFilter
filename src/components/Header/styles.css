@@ -9,4 +9,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 20px;
+}
+
+.content p {
+    font-size: 12px;
 }
