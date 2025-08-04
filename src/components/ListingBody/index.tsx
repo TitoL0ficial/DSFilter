@@ -1,5 +1,5 @@
 import FilterCard from '../FilterCard';
-import './styles.css';
+import ListingCard from '../ListingCard';
 
 export default function ListingBody() {
 
@@ -7,7 +7,10 @@ export default function ListingBody() {
     <main>
         <section className="container">
             <FilterCard/>
-        </section>     
+        </section>    
+        <section className="container">
+            <ListingCard/>
+        </section> 
     </main>
   );
 }

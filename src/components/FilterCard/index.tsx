@@ -2,7 +2,7 @@ import './styles.css';
 
 export default function FilterCard() {
     return(
-        <div className="filter-card-container">
+        <div className="filter-card-container mt30">
             <form>
                 <div className="form-content">
                     <div className="input-box">
