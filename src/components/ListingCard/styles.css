@@ -1,17 +1,9 @@
-.listing-card-container {
-    background-color: #fff;
-    height: 408px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    padding: 20px;
-}
-
 .product-card {
-    width: 100%;
     height: 53px;
     border-radius: 5px;
     border: 1px solid #55BC04;
     padding: 10px;
+    margin: 10px;
 }
 
 .product-card h5 {
