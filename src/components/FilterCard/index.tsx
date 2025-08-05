@@ -19,7 +19,8 @@ export default function FilterCard({ onSearch } : Props) {
 
     
     function handleInputChange(event: any) {
-        const { name, value } = event.target;
+        const value = event.target.value;
+        const name = event.target.name;
         setFormData({...formData, [name]: value})
     }
 

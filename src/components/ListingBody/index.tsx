@@ -45,13 +45,17 @@ export default function ListingBody() {
         <main>
           <section className="container">
             <FilterCard onSearch={handleSearch}/>
-            <div className="listing-card-container mt30">
             {
-            products.map(product => (
-                <ListingCard key={product.id} product={product}/>
-              ))
+              contextListing > 0 &&
+               <div className="listing-card-container mt30">
+              {
+              products.map(product => (
+                  <ListingCard key={product.id} product={product}/>
+                ))
+              }
+              </div>
             }
-            </div>
+           
           </section>
         </main>
       </ContextListingCard.Provider>
